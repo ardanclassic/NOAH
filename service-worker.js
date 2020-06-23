@@ -1,4 +1,4 @@
-const CACHE_NAME = 'truelearner';
+let CACHE_NAME = 'truelearner';
 let urlsToCache = [
 	'/',
 	'/index.html',
