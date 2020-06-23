@@ -1,0 +1,35 @@
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p i {
+    color: yellow;
+}
+
+.divider {
+    background-color: #505050;
+}
+
+.box-img {
+    width: 100%;
+    text-align: center;
+    margin: 36px 0;
+}
+
+.box-img img {
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .kisah h1 { font-size: 48px; margin-bottom: 50px; }
+    .kisah p { font-size: 20px; }
+}
+
+@media only screen and (max-width: 574px) {
+    h1 { font-size: 24px; }
+    .box-img img {
+        width: 100%;
+        border-radius: 20px;
+    }
+}

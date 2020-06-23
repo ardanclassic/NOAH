@@ -1,0 +1,60 @@
+.container {
+    padding: 0 0.75rem;
+}
+
+li i {
+    color: yellow;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.divider {
+    background-color: #505050;
+}
+.short-divider {
+    width: 50%;
+    height: 1px;
+    background-color: #505050;
+    margin: 80px auto;
+}
+
+.box-img {
+    width: 100%;
+    height: 300px;
+    margin: 36px 0;
+    background-image: url(../../assets/gif/sail.gif);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .fakta h1 { font-size: 48px; margin-bottom: 50px; }
+    .fakta p { font-size: 20px; }
+}
+
+@media only screen and (max-width: 574px) {
+    .fakta h1 { font-size: 24px; }
+    .fakta h2 { font-size: 20px; }
+    .box-img {
+        height: 200px;
+    }
+    .short-divider {
+        width: 90%;
+        margin: 40px auto;
+    }
+    .fakta ul li {
+        font-size: 16px;
+        margin: 16px 0;
+    }
+}

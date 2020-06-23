@@ -1,0 +1,40 @@
+.container {
+    padding: 0 0.75rem;
+}
+
+.pesan h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.pesan h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.pesan table img {
+    margin-right: 10px;
+    width: 36px;
+}
+.pesan table td {
+    font-size: 18px;
+}
+.pesan i {
+    color: yellow;
+}
+
+.divider {
+    background-color: #505050;
+}
+
+@media only screen and (min-width: 1024px) {
+    .pesan h1 { font-size: 48px; margin-bottom: 50px; }
+    .pesan p { font-size: 20px; }
+}
+
+@media only screen and (max-width: 574px) {
+    .pesan h1 { font-size: 24px; }
+    .pesan table td {
+        font-size: 14px;
+    }
+}

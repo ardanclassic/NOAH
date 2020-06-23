@@ -1,0 +1,100 @@
+body {
+    background: #000;
+    color: #fff;
+}
+
+nav {
+    margin-bottom: 3em;
+    background: black;
+    border: none;
+    border-radius: 0 0 50px 50%;
+    box-shadow: inset 0 -10px 45px -15px #00b8bb;
+}
+nav .nav-wrapper {
+    padding: 0 0.75rem;
+}
+nav .nav-wrapper .brand-logo img {
+    width: 32px;
+}
+a.sidenav-trigger {
+    font-size: 24px;
+    margin: 0;
+}
+.sidenav {
+    background: #e0e0e0;
+    box-shadow: inset 0px -50px 100px 30px #000;
+}
+.topnav li a span {
+    display: none;
+}
+.sidenav li a img,
+.topnav li a img {
+    width: 24px;
+    position: relative;
+    top: 8px;
+    margin-right: 8px;
+}
+.sidenav-img img {
+    display: none;
+}
+
+.scrollTop {
+    width: 36px;
+    height: 36px;
+    position: fixed;
+    z-index: 100;
+    bottom: 2%;
+    right: 7%;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    pointer-events: none;
+}
+.scrollTop.active {
+    opacity: 1;
+    pointer-events: auto;
+    bottom: 5%;
+}
+.scrollTop img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+}
+footer p {
+    padding: 9px 20px;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    background: #000;
+    box-shadow: inset 0 10px 25px -15px #00b8bb;
+}
+footer span {
+    color: red;
+    margin: 0 5px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    nav {
+        border: none;
+        border-radius: 0 0 50% 0;
+        box-shadow: inset 0 -15px 40px -25px #00b8bb;
+    }
+    nav .nav-wrapper { padding: 0; }
+    h1 { font-size: 32px; }
+    .sidenav-img img {
+        display: block;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .scrollTop {
+        bottom: -1em;
+        right: 1em;
+    }
+    .scrollTop.active { bottom: 1em; }
+    footer p { font-size: 12px; letter-spacing: 0.5px; }
+}

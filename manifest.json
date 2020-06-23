@@ -1,0 +1,21 @@
+{
+    "name": "Noah",
+    "short_name": "Noah",
+    "description": "Noah, The Second Father",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#4b5f81",
+    "theme_color": "#6495ed",
+    "icons": [
+        {
+          "src": "/assets/icon/icon.png",
+          "sizes": "349x349",
+          "type": "image/png"
+        },
+        {
+          "src": "/assets/icon/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+    ]
+}

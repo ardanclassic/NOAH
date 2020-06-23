@@ -1,0 +1,67 @@
+.container {
+    padding: 0 0.75rem;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.dalil ul {
+    text-align: center;
+}
+.dalil ul li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p i {
+    color: yellow;
+}
+
+.divider {
+    background-color: #505050;
+}
+.short-divider {
+    width: 50%;
+    height: 1px;
+    background-color: #505050;
+    margin: 80px auto;
+}
+
+.box-img {
+    width: 100%;
+    text-align: center;
+    margin: 36px 0;
+}
+
+.box-img img {
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .dalil h1 { font-size: 48px; margin-bottom: 50px; }
+    .dalil p { font-size: 20px; }
+}
+
+@media only screen and (max-width: 574px) {
+    h1 { font-size: 24px; }
+    .box-img img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    .short-divider {
+        width: 90%;
+        margin: 40px auto;
+    }
+    .dalil ul li {
+        font-size: 16px;
+        margin: 16px 0;
+    }
+}
