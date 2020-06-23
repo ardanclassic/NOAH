@@ -2,7 +2,6 @@ const CACHE_NAME = 'noah_caches';
 let urlsToCache = [
     '/',
     '/manifest.json',
-    '/service-worker.js',
 	'/index.html',
 	'/pages/nav.html',
 	'/pages/home/home.html',
