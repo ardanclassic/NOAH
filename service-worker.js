@@ -1,7 +1,6 @@
-const CACHE_NAME = 'noah_caches';
+const CACHE_NAME = 'truelearner';
 let urlsToCache = [
-    '/',
-    '/manifest.json',
+	'/',
 	'/index.html',
 	'/pages/nav.html',
 	'/pages/home/home.html',
@@ -18,9 +17,8 @@ let urlsToCache = [
 	'/pages/referensi/referensi.css',
 	'/js/materialize.min.js',
 	'/css/materialize.min.css',
-	'/js/authServiceWorker.js',
 	'/css/style.css',
-    '/js/script.js',
+	'/js/script.js',
     
     /** image assets */
     'assets/illustration/ark3.jpg',
