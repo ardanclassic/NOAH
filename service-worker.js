@@ -1,6 +1,7 @@
 let CACHE_NAME = 'truelearner';
 let urlsToCache = [
 	'/',
+	'/manifest.json',
 	'/index.html',
 	'/pages/nav.html',
 	'/pages/home/home.html',
@@ -19,6 +20,7 @@ let urlsToCache = [
 	'/css/materialize.min.css',
 	'/css/style.css',
 	'/js/script.js',
+	'/js/authServiceWorker.js',
     
     /** image assets */
     'assets/illustration/ark3.jpg',
